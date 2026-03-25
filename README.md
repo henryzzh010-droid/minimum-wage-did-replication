@@ -1,5 +1,49 @@
 # Minimum Wage DID Replication & Extension
 
+# Executive Memo
+
+## Bottom Line Up Front (BLUF)
+
+Our analysis finds that the New Jersey minimum wage increase did not reduce employment in fast-food restaurants. In fact, the estimated effect is slightly positive, suggesting that employment levels remained stable or even increased after the policy change.
+
+The extended model, which controls for store-level characteristics, produces similar results, reinforcing the robustness of the original finding.
+
+---
+
+## The Mechanism (Intuition)
+
+We use a Difference-in-Differences (DID) approach, which compares changes in employment over time between two groups:
+
+- Treated group: New Jersey (policy change)
+- Control group: Pennsylvania (no policy change)
+
+This method mimics a natural experiment. Instead of randomly assigning treatment, we observe how employment changes before and after the policy in both states. The key idea is that Pennsylvania represents what would have happened in New Jersey if the policy had not been implemented.
+
+---
+
+## Visual Evidence
+
+![FTE Trend](figures/fte_trend.png)
+
+The figure below shows average employment (FTE) in New Jersey and Pennsylvania before and after the policy.
+
+- Both states follow similar trends before the policy
+- After the policy, New Jersey does not experience a decline in employment
+
+This supports the validity of the DID assumption and our findings.
+
+---
+
+## Business / Policy Implications
+
+The results suggest that moderate increases in minimum wage do not necessarily lead to job losses in the fast-food industry.
+
+For policymakers:
+- Minimum wage increases may improve worker welfare without harming employment
+
+For businesses:
+- Firms may adjust through other channels (e.g., prices, productivity) instead of reducing staff
+
 ## Project Overview
 
 This project replicates and extends the analysis of Card and Krueger (1994), which examines the impact of a minimum wage increase on employment in the fast-food industry. The study compares fast-food restaurants in New Jersey (treatment group) and Pennsylvania (control group) before and after the 1992 minimum wage increase.
