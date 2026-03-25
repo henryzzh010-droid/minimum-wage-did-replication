@@ -23,7 +23,7 @@ This method mimics a natural experiment. Instead of randomly assigning treatment
 
 ## Visual Evidence
 
-![FTE Trend](figures/fte_trend.png)
+![Coefficient Plot](figures/extension_coefficient_plot.png)
 
 The figure below shows average employment (FTE) in New Jersey and Pennsylvania before and after the policy.
 
